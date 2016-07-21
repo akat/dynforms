@@ -2,4 +2,4 @@
 Angular JS dynamic forms generator
 
 #bower install
-bower install akat-form-creator --save
+<code>bower install akat-form-creator --save</code>
