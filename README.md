@@ -57,3 +57,16 @@ $scope.form = {
 ```html
   <dynform structure="form" model="formdata"></dynform>
 ```
+
+## Available Elements
+*Textfield
+*Textarea
+*Email
+*Password
+*Checkbox
+*Radio buttons
+*Html editor
+*Date Picker
+*Tags
+*Bootstrap Tabs
+*Array
