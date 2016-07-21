@@ -152,18 +152,18 @@ $scope.form = {
 ### SelectBox
 ```Json
 {
-  type: "elemselectbox",
-  name: "gender",
-  label: "Select a gender",
-  class : "col-md-4",
-  options : [
+  "type": "elemselectbox",
+  "name": "gender",
+  "label": "Select a gender",
+  "class": "col-md-4",
+  "options" : [
             {
-              name: "male",
-              value: "male"
+              "name": "male",
+              "value": "male"
             },
             { 
-              name: "female",
-              value: "female"
+              "name": "female",
+              "value": "female"
             }
           ],
   }
