@@ -38,7 +38,6 @@ $scope.form = {
           type: "elemselectbox",
           name: "gender",
           label: "Select a gender",
-          placeholder: "male or female?",
           class : "col-md-4"
           options : [
             {
