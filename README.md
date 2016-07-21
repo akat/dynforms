@@ -66,7 +66,9 @@ $scope.form = {
 - Checkbox
 - Radio buttons
 - Html editor
+- Select Box
 - Date Picker
 - Tags
 - Bootstrap Tabs
 - Array
+- Object
