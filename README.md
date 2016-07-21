@@ -72,3 +72,45 @@ $scope.form = {
 - Bootstrap Tabs
 - Array
 - Object
+
+## Elements JSON Format
+
+### TextField
+```Json
+{
+    type: 'elemtextfield',
+    name: 'title',
+    label: 'Title',
+    placeholder: 'My Title',
+    class : "col-md-6"
+}
+```
+### Textarea
+```Json
+{
+  "type": "elemtextarea",
+  "name": "textarea",
+  "label": "Comments",
+  "class": "col-md-6"
+}
+```
+### Email
+```Json
+{
+  "type": "elememail",
+  "name": "email",
+  "label": "Enail",
+  "placeholder" : "info@yourdomain.xxx",
+  "class": "col-md-6"
+}
+```
+### Password
+```Json
+{
+  "type": "elempassword",
+  "name": "password",
+  "label": "Password",
+  "placeholder" : "*******",
+  "class": "col-md-6"
+}
+```
