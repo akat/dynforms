@@ -21,36 +21,36 @@ angular.module('myApp', [
 ## Controller Example
 ```Javascript
 $scope.formdata = {
-      "gender": "male",
-      "title": "Title goes here..."
-    };
+    "gender": "male",
+    "title": "Title goes here..."
+};
     
 $scope.form = {
-        name: 'formname',
-        fields: [{
-          type: 'elemtextfield',
-          name: 'title',
-          label: 'Title',
-          placeholder: 'My Title',
-          class : "col-md-6"
-        },
+    name: 'formname',
+    fields: [{
+      type: 'elemtextfield',
+      name: 'title',
+      label: 'Title',
+      placeholder: 'My Title',
+      class : "col-md-6"
+    },
+    {
+      type: "elemselectbox",
+      name: "gender",
+      label: "Select a gender",
+      class : "col-md-4",
+      options : [
         {
-          type: "elemselectbox",
-          name: "gender",
-          label: "Select a gender",
-          class : "col-md-4",
-          options : [
-            {
-              name: "male",
-              value: "male"
-            },
-            { 
-              name: "female",
-              value: "female"
-            }
-          ]
-        }]
-      }
+          name: "male",
+          value: "male"
+        },
+        { 
+          name: "female",
+          value: "female"
+        }
+      ]
+    }]
+}
 ```
 
 ## Angular View
