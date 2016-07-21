@@ -59,14 +59,14 @@ $scope.form = {
 ```
 
 ## Available Elements
-1 Textfield
-2 Textarea
-3 Email
-4 Password
-5 Checkbox
-6 Radio buttons
-7 Html editor
-8 Date Picker
-9 Tags
-10 Bootstrap Tabs
-11 Array
+- Textfield
+- Textarea
+- Email
+- Password
+- Checkbox
+- Radio buttons
+- Html editor
+- Date Picker
+- Tags
+- Bootstrap Tabs
+- Array
