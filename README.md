@@ -2,10 +2,10 @@
 Angular JS dynamic forms generator
 > Under Heavy development...
 
-# What is that?
+## What is that?
 It creates forms based on JSON structure for angularJS. 
 
-# How to install this?
+## How to install this?
 You can simply install it using bower
 ```
 bower install akat-form-creator --save
@@ -18,7 +18,7 @@ angular.module('myApp', [
 ])
 ```
 
-# Controller Example
+## Controller Example
 ```Javascript
 $scope.formdata = {
       "gender": "male",
@@ -53,7 +53,7 @@ $scope.form = {
       }
 ```
 
-# Angular View
+## Angular View
 ```html
   <dynform structure="form" model="formdata"></dynform>
 ```
