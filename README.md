@@ -6,16 +6,16 @@ It creates forms based on JSON structure for angularJS.
 
 # How to install this?
 You can simply install it using bower
-'''bower install akat-form-creator --save'''
+```bower install akat-form-creator --save```
 
 ## Include this on your app dependencies
-'''Javascript
+```Javascript
 angular.module('myApp', [
   'akat-form-creator'
-])'''
+])```
 
 # Controller Example
-'''Javascript
+```Javascript
 $scope.formdata = {
       "gender": "male",
       "title": "Title goes here..."
@@ -48,9 +48,9 @@ $scope.form = {
           ]
         }]
       }
-'''
+```
 
 # Angular View
-'''html
+```html
   <dynform structure="form" model="formdata"></dynform>
-'''
+```
