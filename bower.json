@@ -1,0 +1,38 @@
+{
+  "name": "formcreator",
+  "authors": [
+    "Angelos Katsaris <akatsaris@gmail.com>"
+  ],
+  "description": "AngularJS form creator",
+  "main": ["./lib/dynform.min.js","./lib/form.css"],
+  "keywords": [
+    "angularjs",
+    "forms"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "json3": "~3.3.1",
+    "bootstrap": "~3.1.1",
+    "angular-sanitize": "~1.5.0",
+    "angular-bootstrap": "~1.1.2",
+    "font-awesome": ">=4.1.0",
+    "lodash": "~2.4.1",
+    "angular-validation-match": "~1.5.2",
+    "textAngular": "^1.5.2",
+    "ng-tags-input": "^3.1.1",
+    "ng-lodash": "^0.5.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.5.0"
+  },
+  "license": "MIT",
+  "homepage": "www.angeloskatsaris.com",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
