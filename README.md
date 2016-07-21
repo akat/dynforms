@@ -1,5 +1,6 @@
 # akat-form-creator
 Angular JS dynamic forms generator
+> Under Heavy development...
 
 # What is that?
 It creates forms based on JSON structure for angularJS. 
