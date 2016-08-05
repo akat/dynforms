@@ -4,7 +4,7 @@
     "Angelos Katsaris <akatsaris@gmail.com>"
   ],
   "description": "AngularJS form creator",
-  "main": ["./lib/dynform.js","./lib/form.css"],
+  "main": ["./lib/akat-form-creator.js","./lib/app.css"],
   "keywords": [
     "angularjs",
     "forms"
