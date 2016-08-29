@@ -17,7 +17,7 @@
     "angular-sanitize": "~1.5.0",
     "angular-bootstrap": "~1.1.2",
     "font-awesome": ">=4.1.0",
-    "lodash": "~2.4.1",
+    "lodash": "~4.14.1",
     "angular-validation-match": "~1.5.2",
     "textAngular": "^1.5.2",
     "ng-tags-input": "^3.1.1",
