@@ -1,7 +1,8 @@
 {
   "name": "formcreator",
   "authors": [
-    "Angelos Katsaris <akatsaris@gmail.com>"
+    "Angelos Katsaris <akatsaris@gmail.com>",
+    "Joseph Carras <joscarras@gmail.com>"
   ],
   "description": "AngularJS form creator",
   "main": ["./lib/akat-form-creator.js","./lib/app.css"],
@@ -16,16 +17,17 @@
     "angular-sanitize": "~1.5.0",
     "angular-bootstrap": "~1.1.2",
     "font-awesome": ">=4.1.0",
-    "lodash": "~4.14.1",
+    "lodash": "~2.4.1",
     "angular-validation-match": "~1.5.2",
     "textAngular": "^1.5.2",
-    "ng-tags-input": "^3.1.1"
+    "ng-tags-input": "^3.1.1",
+    "angular-ui-select": "^0.19.4"
   },
   "devDependencies": {
     "angular-mocks": "~1.5.0"
   },
   "license": "MIT",
-  "homepage": "www.angeloskatsaris.com",
+  "homepage": "http://www.angeloskatsaris.com",
   "private": false,
   "ignore": [
     "**/.*",
