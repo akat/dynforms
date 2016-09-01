@@ -23,8 +23,8 @@
     "ng-tags-input": "^3.1.1",
     "angular-ui-select": "^0.19.4",
     "angular-ui-sortable": "^0.14.3",
-    "eonasdan-bootstrap-datetimepicker": "4.0.0",
-    "string": "^3.3.1"
+    "string": "^3.3.1",
+    "eonasdan-bootstrap-datetimepicker": "4.15.35"
   },
   "devDependencies": {
     "angular-mocks": "~1.5.0"
